@@ -3,6 +3,6 @@ on: [push]
 jobs:
  Check-Python-version:
   runs-on: ubuntu-latest
-   steps:
+  steps:
     - run: python --version
 	
