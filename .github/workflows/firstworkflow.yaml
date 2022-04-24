@@ -8,5 +8,5 @@ jobs:
     Pylint-Test:
         runs-on: windows-latest
         steps:
-            -run: pylint app.py
+            -run: python pylint app.py
 	
