@@ -8,6 +8,10 @@ jobs:
     Pylint-Test:
         runs-on: windows-latest
         steps:
+<<<<<<< HEAD
             -run: python-env\Scripts\activate.bat
             -run: pylint app.py
+=======
+            -run: python pylint app.py
+>>>>>>> f52cedaaa8ac3b9fd3f6c874a740c6a324c67abc
 	
