@@ -2,13 +2,7 @@ name: My first Github Workflow
 on: [push]
 jobs:
     Check-Python-version:
-        runs-on: windows-latest
+        runs-on: ubuntu-latest
         steps:
-            -run: git --version
-    Pylint-Test:
-        runs-on: windows-latest
-        steps:
-            -run: python-env\Scripts\activate.bat
-            -run: pylint app.py
-
+            - run: python -v
 	
