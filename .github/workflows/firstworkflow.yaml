@@ -5,13 +5,10 @@ jobs:
         runs-on: windows-latest
         steps:
             -run: git --version
-<<<<<<< HEAD
     Pylint-Test:
         runs-on: windows-latest
         steps:
             -run: python-env\Scripts\activate.bat
             -run: pylint app.py
-=======
-   
->>>>>>> be12c4a18fde3c2c852e3603fc268935975828b4
+
 	
